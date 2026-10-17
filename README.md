@@ -1,5 +1,5 @@
 # NOTES: 
-- THESES WAS DEOBF FROM AI NOT MAKE SURE FULLY - DON'T ASK MORE QUESTIONS.
+- THESE WERE DEOBF FROM AI NOT MAKE SURE FULLY - DON'T ASK MORE QUESTIONS.
 
 - 100% CLEAN: This is a 100% clean, open-source repository. There are no hidden backdoors, RATs, droppers, or malicious payloads. The code has been thoroughly audited and verified to be free of any malicious activity.
 
