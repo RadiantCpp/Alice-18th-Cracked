@@ -1,0 +1,22 @@
+# Logs & Transients
+*.log
+*.tmp
+*.class
+compile_errors*.txt
+cp_args*.txt
+javac_args.txt
+
+# Gradle & Build Caches
+.gradle/
+**/build/
+!Alice-Project/src/
+!Alice-Project/libs/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Python cache
+__pycache__/
+*.pyc

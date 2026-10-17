@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "com.nnpg.alice.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AliceServerCommandMixin",
+    "AliceServerChatMixin",
+    "AliceServerNametagMixin",
+    "AliceServerMeteorNametagMixin",
+    "BuildInventoryBehaviorMixin",
+    "BuildRepairMinecraftClientMixin",
+    "BuildRepairInteractionManagerMixin",
+    "NameProtectMeteorTextRendererMixin",
+    "NameProtectTextVisitFactoryMixin",
+    "WaterNoPushEntityMixin",
+    "VelocityEntityMixin",
+    "VelocityFishingHookMixin",
+    "ClientPlayerEntityMixin",
+    "StrafeOmniInputMixin",
+    "ViaFabricPlusProtocolMixin",
+    "ThudamPlayerModelMixin",
+    "ThudamPlayerRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

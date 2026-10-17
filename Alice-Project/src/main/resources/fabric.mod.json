@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "alice",
+  "version": "1.21.11-alice.18",
+  "name": "ALICE",
+  "description": "Clean Deobfuscated Meteor Client addon for Minecraft 1.21.11 with all 46 modules.",
+  "authors": [
+    "Alice Team",
+    "Byte"
+  ],
+  "icon": "assets/alice/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.nnpg.alice.AliceAddon"
+    ]
+  },
+  "mixins": [
+    "alice.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25",
+    "modmenu": {
+      "badges": ["client"],
+      "parent": {
+        "id": "meteor-client"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": [">=1.21.11 <1.22"],
+    "fabricloader": ">=0.18.2",
+    "meteor-client": "*"
+  }
+}
